@@ -1,0 +1,52 @@
+43e1ccfea186080b1c4cb4cd1e59ac1a3c3dc446," static int http_read_stream(URLContext *h, uint8_t *buf, int size)",libavformat/http.c
+48e52e4edd12adbc36eee0eebe1b97ffe0255be3, static int nvenc_find_free_reg_resource(AVCodecContext *avctx),libavcodec/nvenc.c
+3a02cbe3faccad9e346d63cf40c009e664657304," AVX_INSTR blendpd, sse4, 1, 1, 0",libavutil/x86/x86inc.asm
+2472dbc7a770a908a2f511ec337ec392ca3e3afa," static void write_codec_attr(AVStream *st, VariantStream *vs) {",libavformat/hlsenc.c
+1f28a991effadc64acd6915805b989ab43500f08," static int decode_unregistered_user_data(H264SEIUnregistered *h, GetBitContext *",libavcodec/h264_sei.c
+22241208eb7d0168b2afc128af5a128a9ef0a89b," static int seek_to_start(InputFile *ifile, AVFormatContext *is)",avtools/avconv.c
+73789b85a759f3874112618120194e1712d7adcd," int ff_dca_core_parse(DCACoreDecoder *s, uint8_t *data, int size)",libavcodec/dca_core.c
+50e30d9bb71e1dff27be16c264fac90e362b9896, static av_always_inline av_const int ff_log2_x86(unsigned int v),libavutil/x86/intmath.h
+b5da07d4340a8e8e40dcd1900977a76ff31fbb84," void ff_avg_h264_qpel4_mc00_msa(uint8_t *dst, const uint8_t *src,",libavcodec/mips/h264qpel_msa.c
+6bf48c4805cbb9754aa5a7bcb5f46df6bda95447,,libavformat/tls_gnutls.c
+0105ed551cb9610c62b6920a301125781e1161a0,,libavcodec/mips/h264qpel_msa.c
+260ea7a7b395891b12eeddbd9042e0a4d3c72db9," EXTERNAL_LIBRARY_LIST=""",configure
+1a0d9b503d2e9c4278d6e93d40873dff9d191a25, typedef struct {,libavformat/concatdec.c
+6029b8a6bbc8bbf7799108582e71078ec0bde1cf, static int s337m_probe(AVProbeData *p),libavformat/s337m.c
+1fe40e73a67c703f574545bcb4573e3c695b7ed6, static int hls_mux_init(AVFormatContext *s),libavformat/hlsenc.c
+a579dbb4f7deee142d1bb6545a169c9fcaa467af," static void test_butterflies_float(const float *src0, const float *src1)",tests/checkasm/float_dsp.c
+fa30a0a54854cd291008c065dfaf45d610e3cd04," static int RENAME(dct_quantize)(MpegEncContext *s,",libavcodec/x86/mpegvideoenc_template.c
+067e42b851a707924a154c4757516cc488985eb3," function checkasm_checked_call, export=1",tests/checkasm/aarch64/checkasm.S
+9c1812491f7be2730351969f4abd9b99d300d604, static int get_siz(Jpeg2000DecoderContext *s),libavcodec/jpeg2000dec.c
+36eae45510435378cfc498c6b68966492a58d03e,,tests/checkasm/hevc_add_res.c
+19c5fa9eea47d45b5eedce3bff4edeaf83fb3942," static inline int get_ur_golomb_jpegls(BitstreamContext *bc, int k, int limit,",libavcodec/golomb.h
+b9b82151a1aaa8bbf389853a6142c4e101d80b86," static int udp_read_packet(AVFormatContext *s, RTSPStream **prtsp_st,",libavformat/rtsp.c
+a755b725ec1d657609c8bd726ce37e7cf193d03f," static int do_decode(AVCodecContext *avctx, AVPacket *pkt)",libavcodec/utils.c
+03ce71e4a1187340720e1569ac96c285c145a1f7," int attribute_align_arg sws_scale(struct SwsContext *c,",libswscale/swscale.c
+d5d62ce6d643de704e7bd62a2375e6391c0ffb9a," static int mov_read_meta(MOVContext *c, AVIOContext *pb, MOVAtom atom)",libavformat/mov.c
+227d602bb36f9460e007fb3e1fbff4a776838498," static int ac3_eac3_probe(AVProbeData *p, enum AVCodecID expected_codec_id)",libavformat/ac3dec.c
+0eb319800567b79ca6b4cf0d90904318641b9e50," static int mov_text_decode_frame(AVCodecContext *avctx,",libavcodec/movtextdec.c
+e89cef40506d990a982aefedfde7d3ca4f88c524, static void print_cpu_name(void),tests/checkasm/checkasm.c
+8a78fc5b015f34e0a0c877b4b22b33fb961f847b," static int filter_frame(AVFilterLink *inlink, AVFrame *in)",libavfilter/af_hdcd.c
+9f732e4c996243c1e57c2bbbec6c8b94c37a7a22," static int encode_frame(AVCodecContext *avctx, AVPacket *pkt,",libavcodec/tiffenc.c
+b2b12b2d4ab1347e06770bfb4ea1bdf1b1c70527," static inline void codeblock(DiracContext *s, SubBand *b,",libavcodec/diracdec.c
+bdf7610eb266fd3de650040c97328791868abd82," static int scale_vaapi_filter_frame(AVFilterLink *inlink, AVFrame *input_frame)",libavfilter/vf_scale_vaapi.c
+a655bc834479024ff4d60d0b8ecca290e73eb96c, int dxva2_init(AVCodecContext *s),ffmpeg_dxva2.c
+d171cd076f611b70a9d2e08bc261b470affcb932, static int dsf_read_header(AVFormatContext *s),libavformat/dsfdec.c
+f9f684c0fb8cca97e2bb6102cc018da47e530d17, static int request_frame(AVFilterLink *outlink),libavfilter/vf_zoompan.c
+5b349c8d7cc5dd26b3fbbce6e3883ce02861eeb7," static void flat(WaveformContext *s, AVFrame *in, AVFrame *out,",libavfilter/vf_waveform.c
+ca540fbdb448950b2cc2be82bd1b75cee1bc94f3," static int filter_frame(AVFilterLink *inlink, AVFrame *frame)",libavfilter/f_select.c
+6df2c94130b026930d1f7148699925dcaa08759c," static void yuv_from_cqt(ColorFloat *c, const FFTComplex *v, float gamma, int le",libavfilter/avf_showcqt.c
+4bc7eb2dd232cb77ad8181d0cae05a5fbb1f80de, static int request_frame(AVFilterLink *outlink),libavfilter/vf_fps.c
+7e4070d2e70bbd0e70dd83c06089e465a0eda704, static av_cold int dnxhd_decode_init(AVCodecContext *avctx),libavcodec/dnxhddec.c
+0544c95fd6d0e3c1072554f9d13baf45af7fbf56," DECL_IMDCT_BLOCKS(avx,avx)",libavcodec/x86/mpegaudiodsp.c
+b074367405ca181d0dfa4a0bdd1782450088e242, static void check_ipred(void),tests/checkasm/vp9dsp.c
+0493e42eb2f9fbf42d0aee0b48a84f81f19fb7fa," av_unused static void DEF(put, pixels16_x2)(uint8_t *block, const uint8_t *pixel",libavcodec/x86/hpeldsp_rnd_template.c
+3f9fa2d0b58b142b165d4a8eaa61d7e837a76838, static const int swf_index_tables[4][16] = {,libavcodec/adpcm.c
+9e704755515f504f4d454a1349a82885547d77ab," static int jpeg2000_decode_packets_po_iteration(Jpeg2000DecoderContext *s, Jpeg2",libavcodec/jpeg2000dec.c
+e3d8504fd043bdc2535525128b158fbc1fb18c67, static int hls_mux_init(AVFormatContext *s),libavformat/hlsenc.c
+e5aa6f702130f1afd53c61d058c2ebc48e61e9ea," static inline int decode_log_area(int coded, int factor, int offset)",libavcodec/gsmdec_template.c
+57cd2f7777a316a447301a7d4b5d1c01da200661, static av_cold int mpeg_mux_init(AVFormatContext *ctx),libavformat/mpegenc.c
+92fabca427ff2d8fffa4bd4f09839d8d3822ef31,,libavcodec/x86/hpeldsp_rnd_template.c
+736a3860555adb4e786c45c294c3ef7ccc8ba1f7," MATH_FUNCS=""",configure
+0c73a5a53cc97f4291bbe9e1e68226edf6161744, typedef struct HLSContext {,libavformat/hls.c
+cd60631752cafe106b406f00966ac0323ad2ce1f, enabled libx264           && require libx264 x264.h x264_encoder_encode -lx264 &,configure
